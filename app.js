@@ -69,6 +69,7 @@ Test this function by hand in the console to get it working, and when you think 
 function and see if the test passes.*/
 
 // Write your code here
+
 function sumAndMultiply(a, b, c) { //eslint-disable-line
   var mySum = sum(a, b, c)[0];
   // console.log(mySum);
