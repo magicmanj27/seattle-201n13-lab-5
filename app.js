@@ -116,25 +116,25 @@ Test this function by hand in the console to get it working, and when you think 
 uncomment the call for the testSumArray() function and see if the test passes.*/
 
 // Write your code here
-// var testArray = [2, 3, 4]; //eslint-disable-line
+var testArray = [2, 3, 4]; //eslint-disable-line
 
-// function sumArray(sumArr) { //eslint-disable-line
-//   // eslint-disable-next-line no-empty
-//   if (testArray instanceof Array) {
-//     var mySum = 0;
-//     for (var i = 0; i < testArray.length; i++) {
-//       mySum += sum(testArray[i])[0];
-//     }
-//   }
-//   var message = testArray + ' was passed in as an array of numbers, and ' + mySum + ' is their sum.';
-//   return ([mySum, message]);
-// }
+function sumArray(sumArr) { //eslint-disable-line
+  // eslint-disable-next-line no-empty
+  if (testArray instanceof Array) {
+    var mySum = 0;
+    for (var i = 0; i < testArray.length; i++) {
+      mySum += sum(testArray[i])[0];
+    }
+  }
+  var message = testArray + ' was passed in as an array of numbers, and ' + mySum + ' is their sum.';
+  return ([mySum, message]);
+}
 
-// // Here is the test for sumArray(); uncomment it to run it
+// Here is the test for sumArray(); uncomment it to run it
 
-// // sumArray(testArray);
+// sumArray(testArray);
 
-// testSumArray(testArray);
+testSumArray(testArray);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. Don't forget to create a new branch for your work on the next question!
 
